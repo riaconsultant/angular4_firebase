@@ -1,4 +1,4 @@
-# Pepper
+# Angular4 and Firebase 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
 
@@ -23,6 +23,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
+## Deployment to the Apache Server
+Change the index.html form build folder. 
+```<base href="/"> needs to change in <base href="./">```
+and paste the same files from build to your project folder.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+I hope you will enjoy the code. If you face any issue or want to discuss more. Please visit `http://riaconsultant.in` and post your query and comment.
+
+Thanks, Manoj

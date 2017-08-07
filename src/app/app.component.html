@@ -1,3 +1,23 @@
 <h1>
   {{title}}
 </h1>
+<ul>
+  <li *ngFor="let r of restaurant">{{ r }}</li>
+</ul>
+<hr/>
+<ul class="leftblock">
+  <li *ngFor="let item of items |async">{{ item.$key}} - {{ item.$value }}</li>
+</ul>
+<hr/>
+<h4>{{ (obj|async)?.firstname }}</h4>
+<h5>{{ (obj|async)?.lastname}}</h5>
+Absolute Path
+<h5>{{(absolute|async)?.total}} and age: {{(absolute|async)?.age}}</h5>
+<h5>{{ item | async | json }}</h5>
+  <input type="text" #newname placeholder="Name" />
+  <input type="text" #newsize placeholder="Size" />
+  <br />
+  <button (click)="save(newname.value)">Set Name</button>
+  <button (click)="update(newsize.value)">Update Size</button>
+  <button (click)="delete()">Delete</button>
+
