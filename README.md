@@ -28,6 +28,8 @@ Change the index.html form build folder.
 ```<base href="/"> needs to change in <base href="./">```
 and paste the same files from build to your project folder.
 
+
 I hope you will enjoy the code. If you face any issue or want to discuss more. Please visit `http://riaconsultant.in` and post your query and comment.
 
 Thanks, Manoj
+`http://riaconsultant.in`
