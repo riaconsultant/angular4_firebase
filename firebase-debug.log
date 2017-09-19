@@ -1,0 +1,23 @@
+[debug] [2017-09-19T16:11:17.779Z] ----------------------------------------------------------------------
+[debug] [2017-09-19T16:11:17.783Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-09-19T16:11:17.784Z] CLI Version:   3.12.0
+[debug] [2017-09-19T16:11:17.784Z] Platform:      darwin
+[debug] [2017-09-19T16:11:17.784Z] Node Version:  v6.11.1
+[debug] [2017-09-19T16:11:17.785Z] Time:          Tue Sep 19 2017 21:41:17 GMT+0530 (IST)
+[debug] [2017-09-19T16:11:17.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-19T16:11:17.809Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-19T16:11:17.809Z] > authorizing via signed-in user
+[debug] [2017-09-19T16:11:17.812Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/papper-4d3b5  
+ Tue Sep 19 2017 21:41:17 GMT+0530 (IST)
+[debug] [2017-09-19T16:11:19.128Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-19T16:11:19.130Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/papper-4d3b5/tokens  
+ Tue Sep 19 2017 21:41:19 GMT+0530 (IST)
+[debug] [2017-09-19T16:11:20.759Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'papper-4d3b5'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-09-19T16:11:24.759Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/papper-4d3b5/uploads/-KuPu7QBTKqNY9Oosgxn?fileCount=12&message=  
+ Tue Sep 19 2017 21:41:24 GMT+0530 (IST)
